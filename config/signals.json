@@ -1,0 +1,38 @@
+{
+  "lookback_days": 60,
+  "signals": [
+    {
+      "name": "Data leadership hire",
+      "weight": 5,
+      "keywords": ["head of data", "director of data", "vp of data", "vp data", "chief data officer", "data engineering manager", "head of analytics", "director of analytics"]
+    },
+    {
+      "name": "Data platform hiring",
+      "weight": 3,
+      "keywords": ["data engineer", "analytics engineer", "data platform", "data infrastructure", "data architect", "etl", "dbt", "spark", "kafka", "snowflake", "databricks", "clickhouse"]
+    },
+    {
+      "name": "Security hiring",
+      "weight": 3,
+      "keywords": ["security engineer", "appsec", "application security", "cloud security", "security architect", "ciso", "detection engineer", "pki"]
+    },
+    {
+      "name": "AI / ML build-out",
+      "weight": 2,
+      "keywords": ["machine learning", "ml engineer", "ai engineer", "mlops", "llm", "applied scientist"]
+    },
+    {
+      "name": "Platform / cloud scaling",
+      "weight": 2,
+      "keywords": ["platform engineer", "site reliability", "sre", "devops", "cloud engineer", "infrastructure engineer"]
+    }
+  ],
+  "seniority_boost": {
+    "multiplier": 1.5,
+    "keywords": ["senior", "sr", "staff", "principal", "lead", "head", "director", "vp", "chief"]
+  },
+  "thresholds": {
+    "hot": 15,
+    "warm": 6
+  }
+}

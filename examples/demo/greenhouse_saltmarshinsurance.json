@@ -1,0 +1,49 @@
+{
+  "jobs": [
+    {
+      "id": 0,
+      "title": "Lead Data Architect",
+      "departments": [
+        {
+          "name": "Data"
+        }
+      ],
+      "location": {
+        "name": "Hyderabad"
+      },
+      "absolute_url": "https://boards.greenhouse.io/saltmarshinsurance/jobs/1000",
+      "first_published": "2026-11-06T00:00:00Z",
+      "updated_at": "2026-11-06T00:00:00+00:00"
+    },
+    {
+      "id": 1,
+      "title": "Detection Engineer",
+      "departments": [
+        {
+          "name": "Security"
+        }
+      ],
+      "location": {
+        "name": "Hyderabad"
+      },
+      "absolute_url": "https://boards.greenhouse.io/saltmarshinsurance/jobs/1001",
+      "first_published": "2026-10-30T00:00:00Z",
+      "updated_at": "2026-10-30T00:00:00+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Claims Specialist",
+      "departments": [
+        {
+          "name": "Operations"
+        }
+      ],
+      "location": {
+        "name": "Hyderabad"
+      },
+      "absolute_url": "https://boards.greenhouse.io/saltmarshinsurance/jobs/1002",
+      "first_published": "2026-11-13T00:00:00Z",
+      "updated_at": "2026-11-13T00:00:00+00:00"
+    }
+  ]
+}

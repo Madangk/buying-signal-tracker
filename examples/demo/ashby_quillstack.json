@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": "quillstack-0",
+      "title": "Content Marketing Manager",
+      "department": "Marketing",
+      "location": "Remote",
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/quillstack/quillstack-0",
+      "publishedAt": "2026-11-07T00:00:00+00:00"
+    },
+    {
+      "id": "quillstack-1",
+      "title": "Account Executive",
+      "department": "Sales",
+      "location": "Remote",
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/quillstack/quillstack-1",
+      "publishedAt": "2026-11-12T00:00:00+00:00"
+    }
+  ]
+}

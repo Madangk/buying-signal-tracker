@@ -1,0 +1,49 @@
+{
+  "jobs": [
+    {
+      "id": 0,
+      "title": "DevOps Engineer",
+      "departments": [
+        {
+          "name": "Engineering"
+        }
+      ],
+      "location": {
+        "name": "Remote"
+      },
+      "absolute_url": "https://boards.greenhouse.io/orbitly/jobs/1000",
+      "first_published": "2026-10-25T00:00:00Z",
+      "updated_at": "2026-10-25T00:00:00+00:00"
+    },
+    {
+      "id": 1,
+      "title": "Customer Success Manager",
+      "departments": [
+        {
+          "name": "CS"
+        }
+      ],
+      "location": {
+        "name": "Remote"
+      },
+      "absolute_url": "https://boards.greenhouse.io/orbitly/jobs/1001",
+      "first_published": "2026-11-10T00:00:00Z",
+      "updated_at": "2026-11-10T00:00:00+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Frontend Engineer",
+      "departments": [
+        {
+          "name": "Engineering"
+        }
+      ],
+      "location": {
+        "name": "Remote"
+      },
+      "absolute_url": "https://boards.greenhouse.io/orbitly/jobs/1002",
+      "first_published": "2026-11-04T00:00:00Z",
+      "updated_at": "2026-11-04T00:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tidewaterlogistics-0",
+    "text": "Data Engineer",
+    "categories": {
+      "team": "Data",
+      "location": "Chennai"
+    },
+    "hostedUrl": "https://jobs.lever.co/tidewaterlogistics/tidewaterlogistics-0",
+    "createdAt": 1784332800000
+  },
+  {
+    "id": "tidewaterlogistics-1",
+    "text": "Head of Analytics",
+    "categories": {
+      "team": "Data",
+      "location": "Chennai"
+    },
+    "hostedUrl": "https://jobs.lever.co/tidewaterlogistics/tidewaterlogistics-1",
+    "createdAt": 1786492800000
+  },
+  {
+    "id": "tidewaterlogistics-2",
+    "text": "Fleet Operations Manager",
+    "categories": {
+      "team": "Operations",
+      "location": "Chennai"
+    },
+    "hostedUrl": "https://jobs.lever.co/tidewaterlogistics/tidewaterlogistics-2",
+    "createdAt": 1794182400000
+  }
+]

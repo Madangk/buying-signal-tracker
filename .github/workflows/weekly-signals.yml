@@ -1,0 +1,33 @@
+# Runs the tracker every Monday morning (India time) and saves the report as a download.
+# The tracking steps only run once you add an accounts.csv file to the repo.
+# Optional: add a repository secret called SLACK_WEBHOOK_URL to get the top accounts in Slack.
+name: Weekly buying signals
+
+on:
+  schedule:
+    - cron: "30 2 * * 1"   # 08:00 IST every Monday
+  workflow_dispatch: {}     # lets you run it by hand from the Actions tab
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check for accounts.csv
+        if: ${{ hashFiles('accounts.csv') == '' }}
+        run: echo "No accounts.csv yet. Copy accounts.example.csv to accounts.csv and add your accounts."
+      - name: Run tests
+        run: python -m unittest discover tests
+      - name: Track signals
+        if: ${{ hashFiles('accounts.csv') != '' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python track.py --accounts accounts.csv --out output ${{ secrets.SLACK_WEBHOOK_URL != '' && '--slack' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: ${{ hashFiles('accounts.csv') != '' }}
+        with:
+          name: buying-signals
+          path: output/
